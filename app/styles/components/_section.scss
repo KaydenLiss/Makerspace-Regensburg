@@ -1,0 +1,56 @@
+section {
+    &.container {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    
+    + section {
+      border-top: 1px solid #f2f2f2;
+    }
+  
+    > div {
+      + div {
+        margin-top: 3rem;
+      }
+    }
+
+    p,
+    h4,
+    h5 {
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+  }
+
+#kitchen {
+    $kitchen-blau: #003377;
+
+    a {
+        color: $kitchen-blau;
+
+        &:hover {
+            color: lighten($kitchen-blau, 15%);
+        }
+    }
+
+    h4,
+    h5 {
+        color: $kitchen-blau;
+    }
+}
+
+@media (max-width: 767px) {
+    section {
+        &.container {
+            padding-top: 40px;
+            padding-bottom: 40px;
+        }
+
+        > div {
+            + div {
+              margin-top: 30px;
+            }
+          }
+    }
+  }

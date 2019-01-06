@@ -1,0 +1,15 @@
+footer {
+    padding: 20px 0;
+
+    .footernav {
+        a {
+            font-size: 14px !important;
+            color: #555;
+
+            &:hover {
+                color: #6c8dab;
+                background: none !important;
+            }
+        }
+    }
+}
