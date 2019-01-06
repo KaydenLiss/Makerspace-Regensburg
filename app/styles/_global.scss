@@ -19,17 +19,9 @@ a:hover {color: #6c8dab;}
 .product_item.hidetheaction .kad_add_to_cart {background: transparent; color: transparent;}
 .product_item:hover .kad_add_to_cart, .product_item:hover a.button {background: #6c8dab; color: #fff;}
 
-/* Background Skins */
-.contentclass, .nav-tabs>li.active>a, .nav-tabs>li.active>a:hover, .nav-tabs>li.active>a:focus {background: #fff;}
-.mobileclass {background: #f2f2f2; background: rgba(0,0,0,0.05);}
-.headerclass {background: #fff;}
-.footerclass {background: #f2f2f2;}
-.navclass {background: #fff;}
-.bg-lightgray {background: #f2f2f2; background:rgba(0, 0, 0, 0.05); }
-/* Header - Type */
-h1, h2, h3 {color:#333;}
-h4 {color: #444;}
-h5 {color: #555;}
+.bg-lightgray {
+  background: #f2f2f2;
+}
 
 .sf-menu a {letter-spacing: normal;}
 #nav-second ul.sf-menu a {letter-spacing: normal;}
@@ -43,13 +35,72 @@ body, .color_body, .sidebar a, .author-name a, .author-latestposts h5 a, .author
 a:hover {text-decoration: none;}
 .hometitle {text-align: center;}
 
-/* Footer */
-#containerfooter h3, #containerfooter {color:#555;}
-.footercredits p {color: #aaa;}
-.footerclass a {color: #555;}
-.footernav ul li a {color:#555;}
+body {
+  font-family: "Libre Franklin", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-transform: none;
+  color: #333;
+  font-family: Verdana, Geneva, sans-serif;
+  line-height: 25px;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+}
 
-/* Custom */
-.sidebar a {
-	color:#555;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Lato;
+  line-height: 40px;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1, h2, h3 {
+  color:#333;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+h2 {
+  font-size: 32px;
+}
+
+h3 {
+  font-size: 28px;
+}
+
+h4 {
+  font-size: 24px;
+  color: #444;
+}
+
+h5 {
+  font-size: 18px;
+  color: #555;
+}
+
+p {
+  margin-bottom: 2rem;
+}
+
+.content-narrow {
+  max-width: 780px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (max-width: 767px) {
+  .kad-desktop-slider {
+    display: none;
+  }
 }
