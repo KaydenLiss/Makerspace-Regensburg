@@ -40,6 +40,23 @@ section {
     }
 }
 
+#transition {
+    $transition-gruen: #99cc00;
+
+    a {
+        color: $transition-gruen;
+
+        &:hover {
+            color: #3b8a07;
+        }
+    }
+
+    h4,
+    h5 {
+        color: $transition-gruen;
+    }
+}
+
 @media (max-width: 767px) {
     section {
         &.container {
